@@ -55,4 +55,6 @@ def twoSum(self, nums, target):
                dict[nums[i]] = i
 
 if __name__ == "__main__":
-    print(twoSum([2,7,11,15], 5))
+    num_test = Solution()
+    nums = num_test.twoSum([2,7,11,15], 9)
+    print(nums)
