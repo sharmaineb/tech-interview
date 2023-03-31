@@ -16,6 +16,11 @@ You can return the answer in any order."""
 # sum to that target value
 # check every combination of two values and see if they sum up to the target
 
+"""Example 1:
+
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1]."""
 
 class Solution:
 # create a function called twoSum
