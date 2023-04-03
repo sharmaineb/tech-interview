@@ -29,9 +29,10 @@ class Solution:
 # largest value to smallest value = add them up
 # smaller value before larger value = subtract them
 # create hash map
+# hash map = data structure to hold & retrieve key/value pairs
         roman_numerals = { "I" : 1, "V" : 5, "X" : 10, "L" : 50,
              "C" : 100, "D" : 500, "M" : 1000}
-# set result to 0        
+# set result to 0 to start       
         result = 0
 # iterate through the input string with for loop
 # iterate through the length of string
