@@ -57,7 +57,7 @@ class Solution:
 
 
 
-# if __name__ == "__main__":
-#     test = Solution()
-#     input = test.mergeTwoLists([1,2,4], [1,3,4])
-#     print(input)
+if __name__ == "__main__":
+    test = Solution()
+    input = test.mergeTwoLists([1,2,4], [1,3,4])
+    print(input)
