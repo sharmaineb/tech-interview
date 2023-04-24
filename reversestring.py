@@ -41,10 +41,8 @@ We then use a while loop to swap the characters at the left and right positions,
 right until they meet in the middle of the list.
 
 We are modifying s in-place, so we do not need to return anything from the function.
-
 This solution has a time complexity of O(n/2), which simplifies to O(n), as we are swapping each character once. 
 It has a space complexity of O(1), as we are modifying the input list in-place and using only constant extra space."""
-
 """The time complexity of this algorithm is O(n), where n is the length of the input string. 
 This is because the algorithm needs to iterate over half of the string to reverse it in-place, 
 and each swap operation takes constant time."""

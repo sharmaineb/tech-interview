@@ -27,7 +27,6 @@ Explanation: There are three ways to climb to the top.
 3. 2 steps + 1 step"""
 
 # time complexity = O(n)
-
 # Solution
 class Solution:
 # create a function called climbStairs

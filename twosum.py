@@ -11,7 +11,6 @@ You can return the answer in any order."""
 # the list() function
 
 # ````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
-
 # Given an input array and some target. We want to find the two values in this input array that
 # sum to that target value
 # check every combination of two values and see if they sum up to the target

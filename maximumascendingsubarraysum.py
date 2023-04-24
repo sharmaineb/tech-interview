@@ -51,18 +51,12 @@ if __name__ == "__main__":
     print(input)
 
 """The maxAscendingSum function takes in a list of integers nums and returns the maximum sum of an ascending subarray in the list.
-
 We first check if the list is empty. If so, we return 0 as there are no ascending subarrays in an empty list.
-
 We then initialize current_sum and max_sum to the first element of the list, as a subarray containing only the first element is necessarily ascending.
-
 We then iterate over the rest of the elements in the list, comparing each element to the previous element. If the current element is greater than the 
 previous element, we add it to current_sum. If not, we reset current_sum to the current element, as we start a new ascending subarray.
-
 At each iteration, we update max_sum with the maximum of its current value and current_sum, as we want to keep track of the maximum sum seen so far.
-
-We then return max_sum."""
-
-"""The time complexity of the given code is O(n) where n is the length of the input list nums. This is because the code traverses 
+We then return max_sum.
+The time complexity of the given code is O(n) where n is the length of the input list nums. This is because the code traverses 
 the list once and performs 
 constant-time operations on each element. The time taken to execute the code grows linearly with the size of the input list."""

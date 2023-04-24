@@ -53,9 +53,7 @@ the current node with the value of its next node. If they are the same, we remov
 node's next pointer to the next node's next pointer. If they are different, we move the current pointer to the next node.
 
 We then return the modified linked list.
-"""
-
-"""The time complexity of this algorithm is O(n), 
+The time complexity of this algorithm is O(n), 
 where n is the length of the input linked list. 
 This is because the algorithm iterates through each node in the linked list once, 
 and each comparison and pointer manipulation operation takes constant time."""

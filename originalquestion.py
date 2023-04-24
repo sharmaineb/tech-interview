@@ -28,9 +28,8 @@ when trying to access nums[i+1]."""
 input: nums = [1, 2, 3, 4]
 consecutive_sum(nums)
 output: [3, 5, 7]
-"""
 
-"""The algorithm uses a loop to iterate over the nums list, and for each iteration, 
+The algorithm uses a loop to iterate over the nums list, and for each iteration, 
 it performs a constant amount of work to compute the sum of the current element and 
 the next element in the list. The time complexity of this algorithm is O(n), 
 where n is the length of the input list. This is because the algorithm needs to iterate 

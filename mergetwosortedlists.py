@@ -57,16 +57,12 @@ class Solution:
         
         return node.next
 
-
-
 if __name__ == "__main__":
     test = Solution()
     input = test.mergeTwoLists([1,2,4], [1,3,4])
     print(input)
 
 """The time complexity of mergeTwoLists is O(n), where n is the total number of nodes in the two input lists.
-
 This is because we iterate through both lists once, comparing and appending nodes until we reach the end of 
 one of the lists. We then simply append the remaining nodes of the non-empty list to the end of our result list.
-
 The time complexity of the function is directly proportional to the total number of nodes in the input lists, resulting in a linear time complexity of O(n)."""
