@@ -23,6 +23,8 @@ The list is guaranteed to be sorted in ascending order."""
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+# time complexity = O(n)
+
 class Solution:
     def deleteDuplicates(self, head):
         # initialize a pointer to the head node
@@ -52,3 +54,8 @@ node's next pointer to the next node's next pointer. If they are different, we m
 
 We then return the modified linked list.
 """
+
+"""The time complexity of this algorithm is O(n), 
+where n is the length of the input linked list. 
+This is because the algorithm iterates through each node in the linked list once, 
+and each comparison and pointer manipulation operation takes constant time."""

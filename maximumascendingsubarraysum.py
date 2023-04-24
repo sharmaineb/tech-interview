@@ -27,6 +27,7 @@ Constraints:
 
 1 <= nums.length <= 100
 1 <= nums[i] <= 100"""
+# time complexity = O(n)
 
 class Solution:
     def maxAscendingSum(self, nums):
@@ -61,3 +62,7 @@ previous element, we add it to current_sum. If not, we reset current_sum to the 
 At each iteration, we update max_sum with the maximum of its current value and current_sum, as we want to keep track of the maximum sum seen so far.
 
 We then return max_sum."""
+
+"""The time complexity of the given code is O(n) where n is the length of the input list nums. This is because the code traverses 
+the list once and performs 
+constant-time operations on each element. The time taken to execute the code grows linearly with the size of the input list."""

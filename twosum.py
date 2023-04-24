@@ -42,7 +42,7 @@ class Solution:
             hmap[n] = i
         return
     
-
+# time complexity = O(n)
 # Solution 2
 # create a function called twoSum
 def twoSum(self, nums, target):
@@ -63,3 +63,7 @@ if __name__ == "__main__":
     num_test = Solution()
     nums = num_test.twoSum([2,7,11,15], 9)
     print(nums)
+
+"""The time complexity of this implementation is O(n), where n is the length of the input array nums. 
+This is because the implementation only needs to loop over the input array once, and the dictionary 
+lookups for each element take constant time on average. The time complexity is linear in the size of the input."""

@@ -21,6 +21,7 @@ Constraints:
 1 <= nums.length <= 3 * 104
 -3 * 104 <= nums[i] <= 3 * 104
 Each element in the array appears twice except for one element which appears only once."""
+# time complexity = O(n)
 
 class Solution:
 # create a function called singleNumber
@@ -64,4 +65,9 @@ In other words, if you XOR a number with itself, the result is 0, and if you XOR
 the result is the original number.
 
 So, to find the unique number in the array, you can simply XOR all the numbers in the array together. 
-Since the duplicate numbers will cancel each other out, the result will be the unique number."""
+Since the duplicate numbers will cancel each other out, the result will be the unique number.
+
+The time complexity of this code is O(n), where n is the length of the input list nums. 
+The first for loop iterates through all elements in nums once, and the second for loop iterates 
+through all elements in the dictionary once, so the total number of iterations is 2n, 
+which simplifies to O(n) as the dominant term."""

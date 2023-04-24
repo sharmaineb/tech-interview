@@ -21,6 +21,7 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 Constraints:
 
 -231 <= x <= 231 - 1"""
+# time complexity = O(log n)
 
 class Solution:
     def isPalindrome(self, x):
@@ -59,4 +60,8 @@ the number. Therefore, we check if x is equal to rev or rev with the last digit 
 
 We then return True if the number is a palindrome, and False otherwise."""
 
+"""The time complexity of this algorithm is O(log n), where n is the input integer. 
+This is because the algorithm divides the input integer by 10 at each iteration of the while loop, 
+effectively reducing the size of the integer by a factor of 10. The number of iterations is proportional 
+to the number of digits in the input integer, which is logarithmic in base 10."""
 

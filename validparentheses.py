@@ -70,3 +70,9 @@ if __name__ == "__main__":
     input = test.isValid("()[]{}")
     print(input)
 
+# time complexity = O(n)
+
+"""The time complexity of this algorithm is O(n), where n is the length of the input string. 
+This is because the algorithm iterates over each character in the string exactly once, 
+and the operations performed within the loop (appending to and popping from a list) 
+are constant time operations."""

@@ -52,3 +52,8 @@ if __name__ == "__main__":
     test = Solution()
     input = test.lengthOfLastWord("   fly me   to   the moon  ")
     print(input)
+
+"""The time complexity of this solution is O(n), where n is the length of the input string 's'. 
+The reason is that the algorithm traverses the string from right to left only once, 
+looking for the last word and counting its length. Since the time it takes to traverse the string is 
+proportional to the length of the string, the time complexity is O(n)."""

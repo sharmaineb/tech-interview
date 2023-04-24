@@ -12,12 +12,13 @@ Example 2:
 
 Input: s = ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]
- 
 
 Constraints:
 
 1 <= s.length <= 105
 s[i] is a printable ascii character."""
+
+# time complexity = O(n)
 
 class Solution:
     def reverseString(self, s):
@@ -43,3 +44,7 @@ We are modifying s in-place, so we do not need to return anything from the funct
 
 This solution has a time complexity of O(n/2), which simplifies to O(n), as we are swapping each character once. 
 It has a space complexity of O(1), as we are modifying the input list in-place and using only constant extra space."""
+
+"""The time complexity of this algorithm is O(n), where n is the length of the input string. 
+This is because the algorithm needs to iterate over half of the string to reverse it in-place, 
+and each swap operation takes constant time."""

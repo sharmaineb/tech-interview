@@ -22,6 +22,7 @@ Given a roman numeral, convert it to an integer."""
 Input: s = "III"
 Output: 3
 Explanation: III = 3."""
+# time complexity = O(n)
 
 class Solution:
 # create a function called romanToInt
@@ -55,3 +56,10 @@ if __name__ == "__main__":
     test = Solution()
     input = test.romanToInt("III")
     print(input)
+
+"""The time complexity of this function is O(n), 
+where n is the length of the input string 's'. 
+This is because the function iterates through the string 
+once to compute the corresponding integer value of the Roman numeral. 
+The lookup operation in the hash map (dictionary) is constant time, 
+so it doesn't add to the time complexity."""

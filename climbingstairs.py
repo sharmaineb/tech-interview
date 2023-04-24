@@ -26,6 +26,8 @@ Explanation: There are three ways to climb to the top.
 2. 1 step + 2 steps
 3. 2 steps + 1 step"""
 
+# time complexity = O(n)
+
 # Solution
 class Solution:
 # create a function called climbStairs
@@ -51,3 +53,6 @@ if __name__ == "__main__":
     test = Solution()
     input = test.climbStairs(3)
     print(input)
+
+"""The time complexity of this function is O(n) since it iterates through the 
+loop n-1 times, and each iteration takes constant time. The time complexity is linear in terms of the input size n."""

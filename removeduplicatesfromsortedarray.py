@@ -47,6 +47,8 @@ nums is sorted in non-decreasing order."""
 # convert it into a new array where we remove the duplicates
 
 # solution
+# time complexity = O(n)
+
 class Solution:
 # create a function called removeDuplicates
     def removeDuplicates(self, nums):
@@ -70,3 +72,13 @@ if __name__ == "__main__":
     test = Solution()
     input = test.removeDuplicates([0,0,1,1,1,2,2,3,3,4])
     print(input)
+
+"""The time complexity of the removeDuplicates function is O(n), where n 
+is the length of the input array nums. This is because the function only 
+needs to iterate through the input array once and perform constant-time 
+operations for each element in the array. Specifically, it initializes 
+two pointers and iterates through the array using a for loop. For each 
+element in the array, it checks if the element is the same as the previous 
+element, and if not, it moves the element to the left side of the array and 
+increments the left pointer. Since the function performs constant-time operations 
+for each element in the array, the time complexity is O(n)."""

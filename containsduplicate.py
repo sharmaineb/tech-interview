@@ -22,6 +22,8 @@ is present in the set."""
 
 """set add() = adds a given element to a set if the element is not present in the set."""
 
+# time complexity = O(n)
+
 # Solution
 class Solution:
 # create a function called containsDuplicate
@@ -44,3 +46,8 @@ if __name__ == "__main__":
     num_test = Solution()
     nums = num_test.containsDuplicate([1,2,3,1])
     print(nums)
+
+"""The big O notation of this code is O(n), where n is the length of the input array nums. 
+This is because the code iterates through each element of the array exactly once, and the 
+time complexity of set operations like checking if an element exists or adding a new element 
+is O(1) on average. The overall time complexity of this function is O(n)."""

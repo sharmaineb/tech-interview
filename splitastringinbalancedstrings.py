@@ -31,6 +31,8 @@ Constraints:
 s[i] is either 'L' or 'R'.
 s is a balanced string."""
 
+# time complexity = O(n)
+
 class Solution:
     def balancedStringSplit(self, s):
         count = 0
@@ -60,4 +62,9 @@ balance becomes 0, it means we have a balanced substring. We increment count and
 
 We then return count.
 
-This solution has a time complexity of O(n), where n is the length of s, as we iterate over each character in the string once. It has a space complexity of O(1), as we are using only constant extra space for count and balance."""
+This solution has a time complexity of O(n), where n is the length of s, as we iterate over each character in the string once. 
+It has a space complexity of O(1), as we are using only constant extra space for count and balance.
+The time complexity of this code is O(n) where n is the length of the input string s. 
+This is because the code iterates through every character in the string exactly once, 
+performing constant-time operations with each character. Therefore, the time taken by the algorithm is proportional 
+to the length of the input string."""

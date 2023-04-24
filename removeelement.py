@@ -61,3 +61,12 @@ if __name__ == "__main__":
     test = Solution()
     input = test.removeElement([0,1,2,2,3,0,4,2], 2)
     print(input)
+
+# time complexity = O(n)
+"""The time complexity of this code is O(n), where n is 
+the length of the input array "nums". 
+This is because the code iterates over each element in the array once, 
+performing constant-time operations for each element. 
+The worst-case scenario is that all elements in the array are equal 
+to the given value "val", in which case the code still performs n operations. 
+The time complexity is O(n)."""
