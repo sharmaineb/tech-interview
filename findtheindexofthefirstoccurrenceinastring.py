@@ -13,24 +13,33 @@ Input: haystack = "leetcode", needle = "leeto"
 Output: -1
 Explanation: "leeto" did not occur in "leetcode", so we return -1.
  
-
 Constraints:
 
 1 <= haystack.length, needle.length <= 104
 haystack and needle consist of only lowercase English characters."""
 
 class Solution:
-    def strStr(self, haystack, needle):
+    def strStr(self, haystack, needle):        
+# check is needle is empty
         if needle == "":
+# return 0
             return 0
+# outer loop = index i, iterate through every starting position in the haystack
+# inner loop = index j, iterate through every character in the needle
         for i in range(len(haystack) + 1 - len(needle)):
+# break out of loop if not equal
+# if equal, then we can continue
+# when j is equal to the last index of the needle which is the length of needle minus one
+# then we can return the index of the beginning which was index i
             if haystack[i: i + len(needle)] == needle:
-                return i
+                  return i
+# if no match was found, return -1 outside of the for loop
         return - 1
+
 
 if __name__ == "__main__":
     test = Solution()
-    input = test.strStr(haystack = "sadbutsad", needle = "sad")
+    input = test.strStr(haystack= "sadbutsad", needle= "sad")
     print(input)
 
 """Search for a substring within another strings
